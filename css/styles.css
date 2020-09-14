@@ -1,0 +1,313 @@
+/* основной 
+color: #212121; 
+
+второстипений 
+color: #757575;
+
+дополнительний
+color: #FFFFFF;
+
+акцинт 
+  color: #2196f3;
+
+*/
+
+/* ================== Root ================== */
+:root {
+  --main-font: "Open Sans", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+  --primary-title-color: #212121;
+  --primary-white-color: #ffffff;
+  --description-color: #757575;
+  --accent-color: #18a0fb;
+  --transparent-white: rgba(255, 255, 255, 0.6);
+}
+
+/* ================== END Root ================== */
+
+/* ================== Global ================== */
+body {
+  color: var(--primary-title-color);
+  font-family: Roboto, sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.logo-span {
+  color: var(--accent-color);
+}
+
+.title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* ================== END Global ================== */
+
+/* ================== Header ================== */
+.header {
+}
+.navigation {
+}
+
+.logo {
+  font-family: var(--logo-font);
+  color: var(--primary-title-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+
+.navigation-list {
+}
+
+.navigation-list-item {
+}
+
+.navigation-list-link {
+  color: var(--primary-title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+
+.header-contacts {
+  font-style: normal;
+}
+
+.header-contacts-list {
+  display: flex;
+}
+
+.header-contacts-item {
+  padding-right: 20px;
+}
+
+.header-contacts-link {
+  color: var(--description-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: var(--accent-color);
+}
+
+.active {
+  color: var(--accent-color);
+}
+
+/* ================== END Header ================== */
+
+/* ================== Main ================== */
+.main {
+}
+
+/* ------------------ Hero ------------------ */
+.hero {
+  background: #2f303a;
+  /* времени правка - невидно текста  */
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 364;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.hero-button {
+  background-color: #2196f3;
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.857;
+  letter-spacing: 0.06em;
+}
+
+/* ------------------ END Hero ------------------ */
+
+/* ------------------ Basis ------------------ */
+.basis {
+}
+.basis-list {
+}
+.basis-list-item {
+}
+.basis-subject {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.basis-description {
+  color: var(--description-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+/* ------------------ END Basis ------------------ */
+
+/* ------------------ Work ------------------ */
+.work {
+}
+
+.work-list {
+}
+
+.work-list-item {
+}
+
+/* ------------------ END Work ------------------ */
+
+/* ------------------ END Team ------------------ */
+.team {
+}
+
+.team-list {
+}
+
+.team-list-item {
+}
+
+.team-subject {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+}
+.team-description {
+  color: var(--description-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+}
+
+.team-list-socials {
+}
+
+.team-socials-item {
+}
+
+.team-socials-link {
+}
+/* ------------------ END Team ------------------ */
+
+/* ================== END Main ================== */
+
+/* ================== Footre ================== */
+
+footer {
+  background: #2f303a;
+}
+
+.footer-logo {
+  color: var(--primary-white-color);
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+
+.footer-contacts {
+  font-style: normal;
+}
+.footer-contacts-list {
+}
+
+.footer-contacts-item {
+}
+
+.footer-contacts-map {
+  color: var(--primary-white-color);
+}
+
+.footer-contacts-link {
+  color: var(--transparent-white);
+}
+
+.footer-contacts-map,
+.footer-contacts-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+  color: var(--accent-color);
+}
+/* ================== END Footre ================== */
+
+/* ================== Portfolio ================== */
+
+.portfolio {
+}
+
+.filter-list {
+  display: flex;
+}
+
+.filter-list-item {
+}
+
+.button {
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+}
+.button:hover,
+.button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.project-list {
+}
+
+.project-subject {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-subject-type,
+.project-description {
+  color: var(--description-color);
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+.project-subject-type {
+  font-size: 16px;
+  line-height: 1.875;
+}
+
+.project-description {
+  font-size: 18px;
+  line-height: 1.555;
+}
+/* ================== END Portfolio ================== */
